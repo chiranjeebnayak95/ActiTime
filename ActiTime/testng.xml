@@ -1,0 +1,14 @@
+<suite name="Suite">
+<groups>
+<run>
+<include name="smoketest"/>
+</run>  
+</groups>
+<test name="Test">
+    <classes>
+      <class name="com.actitime.generics.CreateCustomer"/>
+      <class name="com.actitime.generics.DeleteCustomer"/>
+      <class name="com.actitime.generics.ModifyCustomer"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
